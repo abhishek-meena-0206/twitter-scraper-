@@ -80,6 +80,7 @@ Plot the sentiment graph
 
 
 
+
 Example Output:
 
 Graph of signals over time
