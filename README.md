@@ -24,6 +24,10 @@ Aggregates and plots signals with Matplotlib
 
 
 Project Structure:
+
+
+
+
 <img width="430" height="576" alt="image" src="https://github.com/user-attachments/assets/2c2715e0-6032-4f6a-a36d-f4b9c0438568" />
 
 
