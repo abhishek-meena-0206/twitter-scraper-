@@ -1,4 +1,4 @@
-Project Title:  Stock Market Twitter Sentiment Analysis
+Project Title:  twitter data scrap and analysis
 
 Overview:
 
