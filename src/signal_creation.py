@@ -1,7 +1,7 @@
 import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 
-def signal_conversion(parquet_file="data/tweets.parquet"):
+def signal_conversion(parquet_file="../data/tweets.parquet"):
     # Load the Parquet file
     df = pd.read_parquet(parquet_file, engine="pyarrow", use_nullable_dtypes=False)
     print("Loaded DF shape:", df.shape)
