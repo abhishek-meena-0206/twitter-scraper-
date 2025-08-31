@@ -29,10 +29,11 @@ chrome_options.add_argument("--disable-blink-features=AutomationControlled")
 # Set up the WebDriver
 service = Service(ChromeDriverManager().install())
 
-driver = webdriver.Chrome(service=service, options=chrome_options)
+
 
 # Hashtags to search
 def scrape_tweets():
+    driver = webdriver.Chrome(service=service, options=chrome_options)
     hashtags = ["nifty50","banknifty","intraday","sensex"]
     all_tweets=[]
     flag=0
