@@ -114,7 +114,7 @@ def scrape_tweets():
     print(tweet_data)
     
     # Save as Parquet (using pyarrow engine)
-    parquet_file = "data/tweets.parquet"
+    parquet_file = "../data/tweets.parquet"
     df.to_parquet(parquet_file, engine="pyarrow", index=False)
     
     driver.quit()
