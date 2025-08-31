@@ -24,16 +24,8 @@ Aggregates and plots signals with Matplotlib
 
 
 Project Structure:
-project/
-│-- market/
-│   │-- data/
-│   │   └── tweets.parquet      # Parquet files (tweets)
-│   │-- signal_creation.py      # Converts tweet text to signals
-│   │-- sig_aggregation.py      # Aggregates signals
-│   │-- main.py                 # Runs the pipeline & plots graph
-│
-│-- requirements.txt            # Python dependencies
-│-- README.md                   # Documentation
+<img width="430" height="576" alt="image" src="https://github.com/user-attachments/assets/2c2715e0-6032-4f6a-a36d-f4b9c0438568" />
+
 
 
 
