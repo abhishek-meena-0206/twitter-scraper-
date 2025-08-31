@@ -4,4 +4,4 @@ import pandas as pd
 df = pd.read_parquet("tweets.parquet")
 
 # Display first 10 rows
-print(df.head(10))
+print(len(df))
