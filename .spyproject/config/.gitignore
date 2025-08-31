@@ -1,3 +1,15 @@
-.spyproject/config
+# Ignore Spyder project settings
+.spyproject/
 
-__pycache__
+# Ignore Python cache
+__pycache__/
+*.pyc
+
+# Ignore virtual environment
+venv/
+.env/
+
+# Ignore data files
+*.csv
+*.xlsx
+*.db
