@@ -79,6 +79,7 @@ Plot the sentiment graph
 
 
 Example Output:
+scrapped data in data/tweets.parquet 
 
 Graph of signals over time
 <img width="998" height="594" alt="image" src="https://github.com/user-attachments/assets/13d34322-96fc-4024-b964-dbe07e8fd6cc" />
