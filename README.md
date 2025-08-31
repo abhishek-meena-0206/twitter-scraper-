@@ -64,6 +64,9 @@ python main.py
 
 
 This will:
+scrap the data from twitter
+
+save data to tweets.parquet
 
 Load tweets from tweets.parquet
 
